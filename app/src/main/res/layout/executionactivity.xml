@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Branco"
+    tools:context=".activity.executionactivity">
+
+    <ImageView
+        android:id="@+id/logo_horizontal"
+        android:layout_width="567dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintBottom_toTopOf="@id/card_feedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_horizontal" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="60dp"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/logo_horizontal"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="?android:attr/actionModeCloseDrawable" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_execucao"
+        android:layout_width="628dp"
+        android:layout_height="905dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo_horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/card_constraint"
+            android:layout_width="match_parent"
+            android:layout_height="904dp"
+            android:background="@color/Branco_1">
+
+            <TextView
+                android:id="@+id/titulo_execucao"
+                android:layout_width="178dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="52dp"
+                android:text="Execucao"
+                android:textColor="#000"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/texto_modulo"
+                app:layout_constraintEnd_toEndOf="@id/card_constraint"
+                app:layout_constraintHorizontal_bias="0.115"
+                app:layout_constraintStart_toStartOf="@id/card_constraint"
+                app:layout_constraintTop_toTopOf="@id/card_constraint"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/texto_modulo"
+                android:layout_width="125dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="36dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toTopOf="@+id/texto_descricao"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/texto_descricao"
+                style="@android:style/Widget.Material.AutoCompleteTextView"
+                android:layout_width="524dp"
+                android:layout_height="140dp"
+                android:layout_marginBottom="68dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintBottom_toTopOf="@id/texto_tipo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="       " />
+
+            <TextView
+                android:id="@+id/texto_tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/texto_localizado"
+                app:layout_constraintEnd_toStartOf="@+id/texto_localizado"
+                app:layout_constraintHorizontal_bias="0.35"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/texto_localizado"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/texto_localizado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="176dp"
+                android:layout_marginBottom="136dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toTopOf="@+id/num_repeticao"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/num_duracao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/num_repeticao"
+                app:layout_constraintEnd_toStartOf="@+id/num_repeticao"
+                app:layout_constraintHorizontal_bias="0.347"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/num_repeticao"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/num_repeticao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="172dp"
+                android:layout_marginBottom="96dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toTopOf="@+id/progressBar"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="500dp"
+                android:layout_height="76dp"
+                android:layout_marginBottom="56dp"
+                android:progress="20"
+                android:progressTint="#4CAF50"
+                app:layout_constraintBottom_toTopOf="@+id/botao_execucao"
+                tools:layout_editor_absoluteX="68dp" />
+
+            <Button
+                android:id="@+id/botao_execucao"
+                android:layout_width="153dp"
+                android:layout_height="53dp"
+                android:layout_marginBottom="48dp"
+                android:background="#E0620D"
+                android:text="Próximo"
+                android:textColor="@color/Branco"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.873"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
