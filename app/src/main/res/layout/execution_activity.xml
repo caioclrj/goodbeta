@@ -12,10 +12,11 @@
         android:id="@+id/imageButton"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginStart="18dp"
         app:layout_constraintBottom_toBottomOf="@+id/logo_image_view"
+        app:layout_constraintStart_toStartOf="@+id/logo_image_view"
         app:layout_constraintTop_toTopOf="@+id/logo_image_view"
-        app:srcCompat="?android:attr/homeAsUpIndicator"
-        tools:layout_editor_absoluteX="16dp" />
+        app:srcCompat="?android:attr/homeAsUpIndicator" />
 
     <ImageView
         android:id="@+id/logo_image_view"
