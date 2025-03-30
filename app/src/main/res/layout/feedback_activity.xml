@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Branco"
-    tools:context=".activity.FeedbackActivity">
+    tools:context=".activity.FeedbackActivity"
+    tools:ignore="MissingClass">
 
     <ImageButton
         android:id="@+id/botao_voltar"
@@ -34,10 +35,7 @@
         android:id="@+id/card_feedback"
         android:layout_width="0dp"
         android:layout_height="555dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="30dp"
+        android:layout_margin ="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,17 +57,19 @@
                 android:textSize="36sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@id/card_constraint"
-                app:layout_constraintHorizontal_bias="0.20"
-                app:layout_constraintVertical_bias="0.44"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintVertical_bias="0.5"
                 app:layout_constraintStart_toStartOf="@id/card_constraint"
                 app:layout_constraintTop_toTopOf="@id/card_constraint"
                 tools:ignore="HardcodedText" />
 
             <EditText
                 android:id="@+id/editTextTextMultiLine"
-                android:layout_width="280dp"
+                android:layout_width="0dp"
                 android:layout_height="300dp"
                 android:layout_marginTop="32dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
                 android:inputType="textMultiLine"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">GoodBeta</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="execucao">Execucao</string>
+    <string name="modulo">Módulo</string>
+    <string name="tipo">Tipo</string>
+    <string name="localizado">Localizado</string>
+    <string name="duracao">Duração</string>
+    <string name="repeticao">Repetição</string>
 </resources>
