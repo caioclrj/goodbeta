@@ -13,7 +13,7 @@ constraintlayout = "2.2.1"
 cardview = "1.0.0"
 roomCommon = "2.6.1"
 roomKtx = "2.6.1"
-kapt = "1.9.0"
+kapt = "2.1.20"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -35,7 +35,6 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
 androidx-room-common = { group = "androidx.room", name = "room-common", version.ref = "roomCommon" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
-kapt = { group = "kapt", name = "kapt", version.ref = "kapt"}
 
 [plugins]
 kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kapt"}
