@@ -39,8 +39,8 @@ android {
     }
     buildFeatures {
         compose = true
-        viewBinding = true
         dataBinding = true
+        viewBinding = true
     }
 }
 
@@ -59,8 +59,8 @@ dependencies {
     implementation(libs.androidx.cardview)
     implementation(libs.androidx.room.common)
     implementation(libs.androidx.room.ktx)
-    kapt("org.jetbrains.kotlin.kapt:org.jetbrains.kotlin.kapt.gradle.plugin:2.1.20")
-    kapt("androidx.room:room-compiler:2.6.1")
+    implementation(libs.material)
+    annotationProcessor(libs.kapt)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
