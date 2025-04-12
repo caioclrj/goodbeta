@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<data>
+<variable
+    name="execucaoViewModel"
+    type="com.goodbeta.cliente.ui.viewmodel.ExecucaoViewModel" />
+</data>
+
+<androidx.constraintlayout.widget.ConstraintLayout
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -66,7 +74,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:text="@string/modulo"
+                android:text="@={execucaoViewModel.modulo}"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textSize="16sp"
@@ -85,6 +93,7 @@
                 android:ems="10"
                 android:gravity="start|top"
                 android:inputType="textMultiLine"
+                android:text="@={execucaoViewModel.descricao}"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="#000"
                 android:textSize="14sp"
@@ -100,7 +109,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:paddingStart="8dp"
-                android:text="@string/tipo"
+                android:text="@={execucaoViewModel.tipo}"
                 android:textColor="#000"
                 android:textSize="14sp"
                 android:textStyle="bold"
@@ -114,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:paddingStart="8dp"
-                android:text="@string/localizado"
+                android:text="@={execucaoViewModel.localizado}"
                 android:textColor="#000"
                 android:textSize="14sp"
                 android:textStyle="bold"
@@ -130,7 +139,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:paddingStart="8dp"
-                android:text="@string/duracao"
+                android:text="@={execucaoViewModel.duracao}"
                 android:textColor="#000"
                 android:textSize="14sp"
                 android:textStyle="bold"
@@ -145,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:paddingStart="8dp"
-                android:text="@string/repeticao"
+                android:text="@={execucaoViewModel.repeticao}"
                 android:textColor="#000"
                 android:textSize="14sp"
                 android:textStyle="bold"
@@ -188,3 +197,4 @@
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
