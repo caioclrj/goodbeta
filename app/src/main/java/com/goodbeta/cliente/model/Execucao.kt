@@ -27,9 +27,9 @@ import java.sql.Date
 data class Execucao(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo( name = "ID") val id : Int,
-    @ColumnInfo( name = "ID_CLIENTE") val cliente: Cliente,
-    @ColumnInfo( name = "ID_TREINO") val treino : Treino,
-    @ColumnInfo( name = "DT_REGISTRO") val dataRegistro : Date,
+    @ColumnInfo( name = "ID_CLIENTE") val cliente: Int,
+    @ColumnInfo( name = "ID_TREINO") val treino : Int,
+    @ColumnInfo( name = "DT_REGISTRO") val dataRegistro : Long,
     @ColumnInfo( name = "IN_STATUS") val status : Boolean
 ) {
 }

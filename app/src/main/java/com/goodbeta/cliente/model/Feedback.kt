@@ -27,9 +27,9 @@ import java.sql.Date
 data class Feedback (
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo( name = "ID") val id : Int,
-    @ColumnInfo( name = "ID_EXECUCAO") val execucao : Execucao,
-    @ColumnInfo( name = "ID_CLIENTE") val cliente : Cliente,
-    @ColumnInfo( name = "DT_REGISTRO") val dataRegistro: Date,
+    @ColumnInfo( name = "ID_EXECUCAO") val execucao : Int,
+    @ColumnInfo( name = "ID_CLIENTE") val cliente : Int,
+    @ColumnInfo( name = "DT_REGISTRO") val dataRegistro: Long,
     @ColumnInfo( name = "TX_DESCRICAO") val descricao : String,
     @ColumnInfo( name = "NR_NOTA") val nota : Int
     )
