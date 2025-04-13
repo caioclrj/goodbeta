@@ -17,4 +17,4 @@ O aplicativo pode ser verificado clonando este repositório no Android Studio
 |:-:|:-:|:-:|:-:|
 |<img src=img/android_1.jpeg width="450" height="225">|<img src=img/android_2.jpg width="450" height="225">|<img src=img/android_3.jpg width="450" height="225">|<img src=img/android_4.jpg width="450" height="225">|
 
-**_As imagens podem ser clicadas para acesso uma melhor resolução_**
+**_As imagens podem ser clicadas para acesso uma melhor resolução. Para retornar oo ponto original do roteiro, navege o browser para a página anterior_**
