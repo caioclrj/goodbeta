@@ -14,4 +14,4 @@ O aplicativo pode ser verificado clonando este repositório no Android Studio
 ##### Clonagem
 
 | Passo 1  | Passo2 | Passo 3  | Passo 4 |
-|<img src=”caminho até a imagem” width="42" height="42">|---|---|---|
+|<img src=”./img/Android 1.jpeg” width="42" height="42">|---|---|---|
