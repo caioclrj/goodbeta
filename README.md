@@ -28,6 +28,8 @@ Este valor deve apontar o caminho onde o projeto foi instalado / clonado. Se nã
 |:-:|:-:|:-:|:-:|
 |<img src=img/gradle_1.jpg width="450" height="225">|<img src=img/gradle_2.jpg width="450" height="225">|<img src=img/gradle_3.jpg width="450" height="225">|<img src=img/gradle_4.jpg width="450" height="225">|
 
+**_As imagens podem ser clicadas para acesso uma melhor resolução. Para retornar ao ponto original do roteiro, navege o browser para a página anterior_**
+
 ##### 2. SDK 
 
 | Passo 1                                             | Passo2                                             | Passo 3                                            | Passo 4                                            |
