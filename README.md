@@ -14,7 +14,7 @@ realizado por Caio Clementino Lamarão na sexta-feira, 11 abr. 2025, às 21:48.
   - [x] com.goodbeta.cliente.model.Programação
   - [x] com.goodbeta.cliente.model.Execução
   - [x] com.goodbeta.cliente.model.Feedback
-
+######
   
   2. Dao - classes de interface com ações ao banco de dados e ao modelo 
   - [x] com.goodbeta.cliente.dao.Cliente 
