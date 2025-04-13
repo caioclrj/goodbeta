@@ -11,7 +11,7 @@ do Forum de Discussão 2, realizado por Caio Clementino Lamarão na sexta-feira,
 
 O aplicativo pode ser verificado clonando este repositório no Android Studio
 
-#####Clonagem
+##### Clonagem
 
 | Passo 1  | Passo2 | Passo 3  | Passo 4 |
 |---|---|---|---|
