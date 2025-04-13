@@ -41,7 +41,7 @@ No **passo 1**, copie a informação de Android SDK Location.
    
 No **passo 2**, crie um arquivo em **"Gradle Scripts"**: 
  - selecione um arquivo qualquer em Gradle Scripts
- - clique com botão direito. Das opções da lista suspensa escolha **New>File** com o nome **local.properties**
+ - clique com botão direito. Das opções da lista suspensa escolha **New>File**, com o nome **local.properties**
   
 No **passo 3** cole a informação do Android SDK Location.
 - deve ser incluida a informação [sdk.dir=<SDK Android Location Formatado>]. Ex.: "sdk.dir=C\:\\Users\\fernando\\AppData\\Local\\Android\\Sdk"
