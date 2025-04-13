@@ -69,7 +69,7 @@ class ExecucaoViewModel (application: Application) : AndroidViewModel(applicatio
                                 treinoDao.buscaUm(id)
                             }
                             treinoLiveData.value = treino
-                            val aux = treinoLiveData.value ?: null
+                            val aux = treinoLiveData.value
                             if (aux != null) {
                                 descricao = MultableLiveData(aux.descricao)
                                 modulo = MultableLiveData(aux.modulo)
