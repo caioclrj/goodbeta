@@ -21,7 +21,8 @@ O aplicativo pode ser verificado clonando este repositório no Android Studio
 
 Após a clonagem, 2 configurações adicionais são necessárias para a configuração do projeto em uso local:
 
-##### 1. Gradle - normalmente, o Gradle vem apontando o local de instalação do Android Studio como caminha default para seu processamento. Apenas verifique que o path 
+##### 1. Gradle - ao instalar o Android Studio, às vezes o Gradle vem apontando o local de instalação do Android Studio como caminho default para o valor "Gradle User Home". 
+Este valor deve apontar o caminho onde o projeto foi instalado / clonado. Se não houve customização da instalação do projeto, o caminho seria "C:/Users/<o usuário da sua máquina>/StudioProjects/goodbeta/.gradle"   
 
 | Passo 1                                             | Passo2                                             | Passo 3                                            | Passo 4                                            |
 |:-:|:-:|:-:|:-:|
