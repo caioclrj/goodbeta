@@ -14,5 +14,5 @@ O aplicativo pode ser verificado clonando este repositório no Android Studio
 ##### Clonagem
 
 | Passo 1  | Passo2 | Passo 3  | Passo 4 |
-|![](./img/android_1.jpeg)|<img src=”./img/android_1.jpeg”? width="450" height="450">|   |   |
+|![](./img/android_1.jpeg)|<img src=”./img/android_1.jpeg”? width="450" height="225">|   |   |
 |---|---|---|---|
