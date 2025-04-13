@@ -44,7 +44,7 @@ No **passo 2**, crie um arquivo em **"Gradle Scripts"**:
  - clique com botão direito. Das opções da lista suspensa escolha **New>File**, com o nome **local.properties**
   
 No **passo 3** cole a informação do Android SDK Location.
-- deve ser incluida a informação {sdk.dir="SDK Android Location Formatado}. Ex.: "sdk.dir=C\:\\Users\\fernando\\AppData\\Local\\Android\\Sdk"
+- deve ser incluida a informação {sdk.dir="SDK Android Location Formatado"}. Ex.: "sdk.dir=C\:\\Users\\fernando\\AppData\\Local\\Android\\Sdk"
  
 No **passo 4** deve ser realizado no Assemble - como no passo 3 do **Gradle**   
 
