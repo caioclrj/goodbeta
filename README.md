@@ -4,7 +4,7 @@ do Forum de Discussão 2, realizado por Caio Clementino Lamarão na sexta-feira,
 
 * As entregas são:   
 ###### 
-  1. SGDB - Artefatos do banco de dados do projeto Goodbeta - declarados em [./SGDB/READ.ME](./SGDB/READ.ME)
+  1. SGDB - Artefatos do banco de dados do projeto Goodbeta - declarados em [./SGDB/README.md](./SGDB/README.md)
   
 ######  
-  2. App - Artefatos do projeto inicialmente proposto - declarados em [./app/READ.ME](./app/READ.ME)
+  2. App - Artefatos do projeto inicialmente proposto - declarados em [./app/README.md](./app/README.md)
