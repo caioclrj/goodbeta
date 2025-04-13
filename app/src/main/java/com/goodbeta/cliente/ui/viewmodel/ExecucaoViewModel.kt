@@ -40,7 +40,7 @@ class ExecucaoViewModel (application: Application) : AndroidViewModel(applicatio
     }
 
     fun salvarExecucao(cliente : Int , treino : Int) {
-        if (!(cliente.equals(0)) && !(treino.equals(0))) {
+        if (cliente != 0 && treino != 0) {
             viewModelScope.launch {
                 withContext(Dispatchers.IO) {
                     val novaExecucao = Execucao(

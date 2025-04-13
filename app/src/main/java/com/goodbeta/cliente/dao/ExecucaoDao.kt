@@ -10,5 +10,8 @@ abstract class ExecucaoDao : BaseDao<Execucao> {
     @Query("SELECT * FROM EXECUCAO")
     abstract fun buscaTodos() : List<Execucao>
 
+    @Query("SELECT * FROM EXECUCAO WHERE ID = :i")
+    abstract fun buscarUm(i: Int) : Execucao
+
 }
 
