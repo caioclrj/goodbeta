@@ -34,7 +34,7 @@ Este valor deve apontar o caminho onde o projeto foi instalado / clonado. Se nã
 
 | Passo 1                                             | Passo2                                             | Passo 3                                            | Passo 4                                            |
 |:-:|:-:|:-:|:-:|
-|<img src=img/android_1.jpeg width="450" height="225">|<img src=img/android_2.jpg width="450" height="225">|<img src=img/android_3.jpg width="450" height="225">|<img src=img/android_4.jpg width="450" height="225">|
+|<img src=img/sdk_1.jpeg width="450" height="225">|<img src=img/sdk_2.jpg width="450" height="225">|<img src=img/sdk_3.jpg width="450" height="225">|<img src=img/sdk_4.jpg width="450" height="225">|
 
 
   
