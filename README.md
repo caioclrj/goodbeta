@@ -25,7 +25,7 @@ Após a clonagem, 2 configurações adicionais são necessárias para a configur
 
 | Passo 1                                             | Passo2                                             | Passo 3                                            | Passo 4                                            |
 |:-:|:-:|:-:|:-:|
-|<img src=img/gradle_1.jpeg width="450" height="225">|<img src=img/gradle_2.jpg width="450" height="225">|<img src=img/gradle_3.jpg width="450" height="225">|<img src=img/gradle_4.jpg width="450" height="225">|
+|<img src=img/gradle_1.jpg width="450" height="225">|<img src=img/gradle_2.jpg width="450" height="225">|<img src=img/gradle_3.jpg width="450" height="225">|<img src=img/gradle_4.jpg width="450" height="225">|
 
 ##### 2. SDK 
 
