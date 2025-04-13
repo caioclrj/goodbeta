@@ -7,23 +7,21 @@ Itens não marcados demandam implementação complementar - como explicado no po
 realizado por Caio Clementino Lamarão na sexta-feira, 11 abr. 2025, às 21:48.  
 
 * Os artefatos são:
- 
+###### 
   1. Model - classes de interface com o banco de dados
   - [x] com.goodbeta.cliente.model.Cliente 
   - [x] com.goodbeta.cliente.model.Treino
   - [x] com.goodbeta.cliente.model.Programação
   - [x] com.goodbeta.cliente.model.Execução
   - [x] com.goodbeta.cliente.model.Feedback
-######
-  
+######  
   2. Dao - classes de interface com ações ao banco de dados e ao modelo 
   - [x] com.goodbeta.cliente.dao.Cliente 
   - [x] com.goodbeta.cliente.dao.Treino
   - [x] com.goodbeta.cliente.dao.Programação
   - [x] com.goodbeta.cliente.dao.Execução
   - [x] com.goodbeta.cliente.dao.Feedback
-
-
+######
   3. ViewModel - classes de interface do Modelo às Views ( layouts )
   - [ ] com.goodbeta.cliente.ui.viewmodel.FeedbackViewModel
   - [ ] com.goodbeta.cliente.ui.viewmodel.ExecucaoViewModel
