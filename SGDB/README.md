@@ -1,4 +1,4 @@
-# SGDA
+# SGBD
 Esta pasta contém artefatos referentes ao SGDB do projeto GoodBeta. 
 
 * Os artefatos são:
