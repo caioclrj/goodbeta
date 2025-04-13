@@ -21,7 +21,7 @@ O aplicativo pode ser verificado clonando este repositório no Android Studio
 
 Após a clonagem, 2 configurações adicionais são necessárias para a configuração do projeto em uso local:
 
-##### 1. Gradle
+##### 1. Gradle - normalmente, o Gradle vem apontando o local de instalação do Android Studio como caminha default para seu processamento. Apenas verifique que o path 
 
 | Passo 1                                             | Passo2                                             | Passo 3                                            | Passo 4                                            |
 |:-:|:-:|:-:|:-:|
