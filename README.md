@@ -38,14 +38,14 @@ No passo 3, acione uma montagem do projeto no botão Assemble - referenciado na 
 Devemos cria-lo então.
 No **passo 1**, copie a informação de Android SDK Location. 
 - A partir do "hamburger", de acesso ao menu de opções ( menu canto superior esquerdo ) selecione o caminho de opções **File>>Settings>>Languages & Frameworks>>Android SDK**
--   
+   
 No **passo 2**, crie um arquivo em **"Gradle Scripts"**: 
  - selecione um arquivo qualquer em Gradle Scripts
  - clique com botão direito. Das opções da lista suspensa escolha **New>File" com o nome **local.properties**
- - 
+  
 No **passo 3** cole a informação do Android SDK Location.
 - deve ser incluida a informação [sdk.dir=<SDK Android Location Formatado>]. Ex.: "sdk.dir=C\:\\Users\\fernando\\AppData\\Local\\Android\\Sdk"
-- 
+ 
 No **passo 4** deve-se ser realizado no Assemble - como no passo 3 do **Gradle**   
 
 | Passo 1                                             | Passo2                                             | Passo 3                                            | Passo 4                                            |
