@@ -54,5 +54,9 @@ No **passo 4** deve ser realizado no Assemble - como no passo 3 do **Gradle**
 
 **_As imagens podem ser clicadas para acesso uma melhor resolução. Para retornar ao ponto original do roteiro, navege o browser para a página anterior_**
 
+##### 3. Estado Final - o projeto monta sem quebra de dependências 
+
+ <img src=img/final.jpg width="775" height="500">
+
  Ao fim, o build deve ocorrer sempre problemas com um warning a respeito de uma entidade não indexada - que tem o index. 
-Obs.: Possível bug de interpretação de ferramenta descontinuada kapt. 
+Possível bug de interpretação de ferramenta descontinuada kapt. 
